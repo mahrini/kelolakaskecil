@@ -7,6 +7,9 @@ require_once('../model.php');
 	$bukti->permintaan_id	= $post->user;
 	$bukti->tanggal			= $post->tgl;
 
-	$trx->save(); { header('location:list.php'); }
+	$trx->save(); 
+	{
+	 	header('location:list.php');
+	}
 
 ?>
